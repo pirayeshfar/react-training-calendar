@@ -1,0 +1,5 @@
+{
+  "name": "Professional Training Calendar",
+  "description": "A web application to manage and display a schedule of courses. Administrators can add, view, and delete course listings. The public view shows a responsive, right-to-left (RTL) table of available courses with a registration button, inspired by a tool for educational centers.",
+  "requestFramePermissions": []
+}
