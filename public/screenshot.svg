@@ -1,0 +1,166 @@
+<svg width="1400" height="1150" viewBox="0 0 1400 1150" xmlns="http://www.w3.org/2000/svg" font-family="Vazirmatn, sans-serif">
+    <defs>
+        <style>
+            .slate-50 { fill: #f8fafc; }
+            .slate-100 { fill: #f1f5f9; }
+            .slate-400 { fill: #94a3b8; }
+            .slate-500 { fill: #64748b; }
+            .slate-600 { fill: #475569; }
+            .slate-700 { fill: #334152; }
+            .slate-800 { fill: #1e293b; }
+            .blue-600 { fill: #2563eb; }
+            .red-600 { fill: #dc2626; }
+            .white { fill: #ffffff; }
+            .text-white { fill: #ffffff; }
+            .rtl-text { direction: rtl; unicode-bidi: bidi-override; text-anchor: end; }
+        </style>
+        <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="5"/>
+            <feOffset dx="0" dy="4" result="offsetblur"/>
+            <feComponentTransfer>
+                <feFuncA type="linear" slope="0.2"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+
+    <rect width="100%" height="100%" class="slate-50" />
+
+    <g transform="translate(50, 40)">
+
+        <text x="650" y="50" font-size="36" font-weight="bold" text-anchor="middle" class="slate-800">تقویم آموزشی حرفه‌ای</text>
+        <text x="650" y="80" font-size="16" text-anchor="middle" class="slate-500">مدیریت و نمایش دوره‌های آموزشی</text>
+
+        <g transform="translate(0, 140)">
+
+            <g transform="translate(900, 0)">
+                <rect x="0" y="0" width="400" height="560" rx="16" class="white" style="filter: url(#shadow);" />
+                <text x="360" y="40" font-size="20" font-weight="600" class="slate-700 rtl-text">افزودن دوره جدید</text>
+                <line x1="40" y1="60" x2="360" y2="60" stroke="#e2e8f0" stroke-width="1" />
+
+                <g transform="translate(40, 80)" font-size="14">
+                    <text x="320" y="0" class="slate-600 rtl-text">نام کلاس / کارگاه</text>
+                    <rect x="0" y="10" width="320" height="40" rx="8" class="slate-100" stroke="#e2e8f0" />
+                    <text x="310" y="35" class="slate-400 rtl-text" font-size="12">مثال: دوره جامع پایتون</text>
+
+                    <text x="320" y="70" class="slate-600 rtl-text">مرکز برگزار کننده</text>
+                    <rect x="0" y="80" width="320" height="40" rx="8" class="slate-100" stroke="#e2e8f0" />
+                    <text x="310" y="105" class="slate-400 rtl-text" font-size="12">مثال: جهاد دانشگاهی</text>
+
+                    <text x="320" y="140" class="slate-600 rtl-text">تاریخ شروع</text>
+                    <rect x="0" y="150" width="320" height="40" rx="8" class="slate-100" stroke="#e2e8f0" />
+                    <text x="310" y="175" class="slate-400 rtl-text" font-size="12">مثال: ۱۴۰۳/۰۷/۱۰</text>
+
+                    <text x="320" y="210" class="slate-600 rtl-text">ظرفیت</text>
+                    <rect x="0" y="220" width="320" height="40" rx="8" class="slate-100" stroke="#e2e8f0" />
+                    <text x="310" y="245" class="slate-400 rtl-text" font-size="12">مثال: ۲۰ نفر</text>
+
+                    <text x="320" y="280" class="slate-600 rtl-text">شهریه (تومان)</text>
+                    <rect x="0" y="290" width="320" height="40" rx="8" class="slate-100" stroke="#e2e8f0" />
+                    <text x="310" y="315" class="slate-400 rtl-text" font-size="12">فقط عدد وارد کنید</text>
+
+                    <text x="320" y="350" class="slate-600 rtl-text">لینک ثبت‌نام آنلاین</text>
+                    <rect x="0" y="360" width="320" height="40" rx="8" class="slate-100" stroke="#e2e8f0" />
+                    <text x="310" y="385" class="slate-400 rtl-text" font-size="12">https://example.com/register</text>
+
+                    <rect x="0" y="440" width="320" height="45" rx="8" class="blue-600" />
+                    <text x="160" y="468" text-anchor="middle" font-weight="600" class="text-white">ذخیره اطلاعات</text>
+                </g>
+            </g>
+
+            <g transform="translate(0, 0)">
+                <rect x="0" y="0" width="850" height="280" rx="16" class="white" style="filter: url(#shadow);" />
+                <text x="810" y="40" font-size="20" font-weight="600" class="slate-700 rtl-text">پنل مدیریت دوره‌ها</text>
+                <line x1="40" y1="60" x2="810" y2="60" stroke="#e2e8f0" stroke-width="1" />
+
+                <g transform="translate(20, 80)" font-size="13">
+                    <rect x="0" y="0" width="810" height="40" class="slate-100" />
+                    <text x="790" y="25" class="slate-600 rtl-text" font-weight="600">ردیف</text>
+                    <text x="680" y="25" class="slate-600 rtl-text" font-weight="600">نام کلاس/کارگاه</text>
+                    <text x="490" y="25" class="slate-600 rtl-text" font-weight="600">مرکز برگزارکننده</text>
+                    <text x="360" y="25" class="slate-600 rtl-text" font-weight="600">تاریخ شروع</text>
+                    <text x="280" y="25" class="slate-600 rtl-text" font-weight="600">ظرفیت</text>
+                    <text x="190" y="25" class="slate-600 rtl-text" font-weight="600">شهریه</text>
+                    <text x="70" y="25" class="slate-600 rtl-text" font-weight="600">عملیات</text>
+
+                    <g transform="translate(0, 45)">
+                        <text x="790" y="25" class="slate-600 rtl-text">۱</text>
+                        <text x="730" y="25" class="slate-600 rtl-text">دوره جامع برنامه نویسی وب</text>
+                        <text x="540" y="25" class="slate-600 rtl-text">جهاد دانشگاهی علامه طباطبایی</text>
+                        <text x="380" y="25" class="slate-600 rtl-text">۱۴۰۳/۰۵/۱۵</text>
+                        <text x="290" y="25" class="slate-600 rtl-text">۲۰ نفر</text>
+                        <text x="210" y="25" class="slate-600 rtl-text">۵,۵۰۰,۰۰۰</text>
+                        <text x="110" y="25" fill="#2563eb" text-decoration="underline" font-size="12">مشاهده لینک</text>
+                        <text x="40" y="25" class="red-600" font-size="12">حذف</text>
+                    </g>
+                    <g transform="translate(0, 85)">
+                        <text x="790" y="25" class="slate-600 rtl-text">۲</text>
+                        <text x="730" y="25" class="slate-600 rtl-text">کارگاه آموزش فتوشاپ مقدماتی</text>
+                        <text x="540" y="25" class="slate-600 rtl-text">مرکز آموزش‌های آزاد</text>
+                        <text x="380" y="25" class="slate-600 rtl-text">۱۴۰۳/۰۶/۰۱</text>
+                        <text x="290" y="25" class="slate-600 rtl-text">ظرفیت محدود</text>
+                        <text x="210" y="25" class="slate-600 rtl-text">۱,۲۰۰,۰۰۰</text>
+                        <text x="110" y="25" fill="#2563eb" text-decoration="underline" font-size="12">مشاهده لینک</text>
+                        <text x="40" y="25" class="red-600" font-size="12">حذف</text>
+                    </g>
+                    <g transform="translate(0, 125)">
+                        <text x="790" y="25" class="slate-600 rtl-text">۳</text>
+                        <text x="730" y="25" class="slate-600 rtl-text">دوره تخصصی مدیریت پروژه</text>
+                        <text x="540" y="25" class="slate-600 rtl-text">جهاد دانشگاهی علامه طباطبایی</text>
+                        <text x="380" y="25" class="slate-600 rtl-text">۱۴۰۳/۰۶/۲۰</text>
+                        <text x="290" y="25" class="slate-600 rtl-text">۱۵ نفر</text>
+                        <text x="210" y="25" class="slate-600 rtl-text">۴,۸۰۰,۰۰۰</text>
+                        <text x="110" y="25" fill="#2563eb" text-decoration="underline" font-size="12">مشاهده لینک</text>
+                        <text x="40" y="25" class="red-600" font-size="12">حذف</text>
+                    </g>
+                </g>
+            </g>
+        </g>
+
+        <g transform="translate(0, 470)">
+             <rect x="0" y="0" width="1300" height="400" rx="16" class="white" style="filter: url(#shadow);" />
+             <text x="650" y="40" font-size="20" font-weight="600" text-anchor="middle" class="slate-700">پیش‌نمایش تقویم آموزشی برای کاربران سایت</text>
+             <line x1="40" y1="60" x2="1260" y2="60" stroke="#e2e8f0" stroke-width="1" />
+             <text x="650" y="90" font-size="14" text-anchor="middle" class="slate-500">این جدول همان چیزی است که کاربران با شورتکد [education_calendar] در سایت مشاهده می‌کنند.</text>
+
+             <g transform="translate(40, 120)" font-size="13">
+                <rect x="0" y="0" width="1220" height="40" class="slate-100" />
+                <text x="1190" y="25" class="slate-600 rtl-text" font-weight="600">ردیف</text>
+                <text x="1050" y="25" class="slate-600 rtl-text" font-weight="600">نام کلاس/کارگاه</text>
+                <text x="820" y="25" class="slate-600 rtl-text" font-weight="600">مرکز برگزارکننده</text>
+                <text x="640" y="25" class="slate-600 rtl-text" font-weight="600">تاریخ شروع</text>
+                <text x="530" y="25" class="slate-600 rtl-text" font-weight="600">ظرفیت</text>
+                <text x="420" y="25" class="slate-600 rtl-text" font-weight="600">شهریه (تومان)</text>
+                <text x="120" y="25" class="slate-600 rtl-text" font-weight="600">ثبت‌نام آنلاین</text>
+                <g transform="translate(0, 45)">
+                    <text x="1190" y="25" class="slate-600 rtl-text">۱</text>
+                    <text x="1120" y="25" class="slate-600 rtl-text">دوره جامع برنامه نویسی وب</text>
+                    <text x="880" y="25" class="slate-600 rtl-text">جهاد دانشگاهی علامه طباطبایی</text>
+                    <text x="660" y="25" class="slate-600 rtl-text">۱۴۰۳/۰۵/۱۵</text>
+                    <text x="540" y="25" class="slate-600 rtl-text">۲۰ نفر</text>
+                    <text x="440" y="25" class="slate-600 rtl-text">۵,۵۰۰,۰۰۰</text>
+                    <rect x="50" y="10" width="120" height="30" rx="8" class="blue-600" />
+                    <text x="110" y="30" text-anchor="middle" font-size="12" font-weight="600" class="text-white">ثبت‌نام آنلاین</text>
+                </g>
+                 <g transform="translate(0, 85)">
+                    <text x="1190" y="25" class="slate-600 rtl-text">۲</text>
+                    <text x="1120" y="25" class="slate-600 rtl-text">کارگاه آموزش فتوشاپ مقدماتی</text>
+                    <text x="880" y="25" class="slate-600 rtl-text">مرکز آموزش‌های آزاد</text>
+                    <text x="660" y="25" class="slate-600 rtl-text">۱۴۰۳/۰۶/۰۱</text>
+                    <text x="540" y="25" class="slate-600 rtl-text">ظرفیت محدود</text>
+                    <text x="440" y="25" class="slate-600 rtl-text">۱,۲۰۰,۰۰۰</text>
+                    <rect x="50" y="10" width="120" height="30" rx="8" class="blue-600" />
+                    <text x="110" y="30" text-anchor="middle" font-size="12" font-weight="600" class="text-white">ثبت‌نام آنلاین</text>
+                </g>
+             </g>
+        </g>
+        
+        <g transform="translate(0, 920)">
+            <text x="650" y="0" text-anchor="middle" font-size="14" class="slate-500">Designed and Developed by <strong>Amir Saman Pirayeshfar</strong>.</text>
+            <text x="650" y="25" text-anchor="middle" font-size="12" class="slate-500">Inspired by the original WordPress plugin for Jahad Daneshgahi of Allameh Tabataba'i University.</text>
+        </g>
+    </g>
+</svg>
