@@ -1,4 +1,3 @@
-
 import React from 'react';
 import type { Course } from '../types';
 
@@ -34,7 +33,7 @@ const TableRow: React.FC<{ course: Course; index: number; total: number; onDelet
     
     // Mobile view structure
     return (
-        <tr className="block md:table-row border-b md:border-b-0 border-slate-200 mb-4 md:mb-0 last:mb-0 last:border-b-0 bg-white md:bg-transparent">
+        <tr className="block md:table-row border-b md:border-b-0 border-slate-200 mb-4 md:mb-0 last:mb-0 last:border-b-0 bg-white md:bg-transparent md:hover:bg-slate-50 transition-colors duration-150">
             {data.map((item, i) => (
                 <td key={i} className="flex justify-between items-center md:table-cell p-3 md:p-4 text-right md:border-b md:border-slate-200 md:text-slate-600">
                     <span className="font-bold text-slate-500 md:hidden">{labels[i]}:</span>
