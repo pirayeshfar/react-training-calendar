@@ -4,6 +4,10 @@ This project is a web application for managing and displaying course schedules, 
 
 The goal is to provide a simple yet powerful interface for educational centers to list their active courses. These courses are then displayed to students in a clean, responsive, and easy-to-navigate table, allowing them to view course details and proceed with registration.
 
+## Application Preview
+
+![Application Preview](./public/screenshot.svg)
+
 ## Features
 
 - **Admin Dashboard**: A simple interface to add, view, and delete courses.

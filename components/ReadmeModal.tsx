@@ -41,6 +41,9 @@ export const ReadmeModal: React.FC<ReadmeModalProps> = ({ isOpen, onClose }) => 
             هدف، فراهم کردن یک رابط کاربری ساده اما قدرتمند برای مراکز آموزشی است تا دوره‌های فعال خود را لیست کنند. این دوره‌ها سپس در یک جدول تمیز، واکنش‌گرا و با ناوبری آسان به دانشجویان نمایش داده می‌شود و به آن‌ها امکان می‌دهد جزئیات دوره را مشاهده کرده و برای ثبت‌نام اقدام کنند.
           </p>
           
+          <h2 className="text-2xl font-semibold text-slate-700 mt-6 border-b pb-2 mb-3">پیش‌نمایش برنامه</h2>
+          <img src="/screenshot.svg" alt="پیش‌نمایش برنامه تقویم آموزشی" className="w-full rounded-lg shadow-md my-4" />
+
           <h2 className="text-2xl font-semibold text-slate-700 mt-6 border-b pb-2 mb-3">ویژگی‌ها</h2>
           <ul className="list-disc pr-6 space-y-2">
             <li><strong>داشبورد ادمین</strong>: یک رابط کاربری ساده برای افزودن، مشاهده و حذف دوره‌ها.</li>
