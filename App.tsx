@@ -1,8 +1,8 @@
-
 import React, { useState, useCallback } from 'react';
 import type { Course, CourseFormData } from './types';
 import { CourseForm } from './components/CourseForm';
 import { CourseTable } from './components/CourseTable';
+import { ReadmeModal } from './components/ReadmeModal';
 
 const initialCourses: Course[] = [
   {
@@ -37,6 +37,7 @@ const initialCourses: Course[] = [
 
 const App: React.FC = () => {
   const [courses, setCourses] = useState<Course[]>(initialCourses);
+  const [isReadmeOpen, setIsReadmeOpen] = useState(false);
 
   const handleAddCourse = useCallback((courseData: CourseFormData) => {
     setCourses(prevCourses => {
@@ -87,10 +88,21 @@ const App: React.FC = () => {
         </div>
       </section>
 
-      <footer className="text-center mt-12 py-4 text-slate-500">
+      <footer className="text-center mt-12 py-4 text-slate-500 space-y-2">
+        <p>
+          <button 
+            onClick={() => setIsReadmeOpen(true)} 
+            className="text-blue-600 hover:underline font-semibold"
+            aria-label="نمایش اطلاعات درباره پروژه"
+          >
+            درباره پروژه
+          </button>
+        </p>
         <p>Designed and Developed by <strong>Amir Saman Pirayeshfar</strong>.</p>
-        <p className="text-sm mt-1">Inspired by the original WordPress plugin for <a href="https://jalameh.ir" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Jahad Daneshgahi of Allameh Tabataba'i University</a>.</p>
+        <p className="text-sm">Inspired by the original WordPress plugin for <a href="https://jalameh.ir" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Jahad Daneshgahi of Allameh Tabataba'i University</a>.</p>
       </footer>
+
+      <ReadmeModal isOpen={isReadmeOpen} onClose={() => setIsReadmeOpen(false)} />
     </div>
   );
 };
